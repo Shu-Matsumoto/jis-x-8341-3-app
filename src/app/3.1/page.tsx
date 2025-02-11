@@ -8,16 +8,16 @@ export default function Home() {
         <header className="mb-4">1.2</header>
       </Link>
       <GoodBadCase
-        chapter="1.2.1"
-        requirement=""
-        summary=""
+        chapter="3.1.1"
+        requirement="ページの言語の達成基準"
+        summary="ページの言語が、明示的に指定されている（HTMLのlang属性で言語が指定されている）。"
         badCaseChildren={<div>bad case</div>}
         goodCaseChildren={<div>good case</div>}
       />
       <GoodBadCase
-        chapter="1.2.2"
-        requirement=""
-        summary=""
+        chapter="3.1.2"
+        requirement="一部分の言語の達成基準"
+        summary="一部分に用いられている他の言語が、どんな言語なのかブラウザが理解できる（lang属性で言語が指定されている）。"
         badCaseChildren={<div>bad case</div>}
         goodCaseChildren={<div>good case</div>}
       />

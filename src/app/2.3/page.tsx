@@ -8,16 +8,9 @@ export default function Home() {
         <header className="mb-4">1.2</header>
       </Link>
       <GoodBadCase
-        chapter="1.2.1"
-        requirement=""
-        summary=""
-        badCaseChildren={<div>bad case</div>}
-        goodCaseChildren={<div>good case</div>}
-      />
-      <GoodBadCase
-        chapter="1.2.2"
-        requirement=""
-        summary=""
+        chapter="2.3.1"
+        requirement="3 回のせん(閃)光，又はしきい(閾)値以下の達成基準"
+        summary="画面の4分の1以上の面積で1秒に3回以上点滅させない。"
         badCaseChildren={<div>bad case</div>}
         goodCaseChildren={<div>good case</div>}
       />

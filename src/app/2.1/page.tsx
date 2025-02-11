@@ -8,16 +8,16 @@ export default function Home() {
         <header className="mb-4">1.2</header>
       </Link>
       <GoodBadCase
-        chapter="1.2.1"
-        requirement=""
-        summary=""
+        chapter="2.1.1"
+        requirement="キーボードの達成基準"
+        summary="キーボード操作だけで、ウェブページやウェブサービスを利用することができる。"
         badCaseChildren={<div>bad case</div>}
         goodCaseChildren={<div>good case</div>}
       />
       <GoodBadCase
-        chapter="1.2.2"
-        requirement=""
-        summary=""
+        chapter="2.1.2"
+        requirement="キーボードトラップなしの達成基準"
+        summary="一度フォーカスしたら抜け出せないコンテンツを作らない。モーダルダイアログや動画プレーヤーで起きやすい。"
         badCaseChildren={<div>bad case</div>}
         goodCaseChildren={<div>good case</div>}
       />
