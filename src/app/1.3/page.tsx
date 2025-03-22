@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Link href="/">
-        <header className="mb-4">1.2</header>
+        <header className="mb-4">1.3</header>
       </Link>
       <GoodBadCase
         chapter="1.3.1"
